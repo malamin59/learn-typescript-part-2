@@ -10,12 +10,9 @@ const rollNumbers : GenericArray<number> = [1,2,4];
 
 const isEligibleList : GenericArray<boolean> = [true, false, true]
 
-
-
-
 const userList: GenericArray<{name: string; age: number }> = [
     {
- name:"al amin",
+ name:"anything",
  age:12,
 
     }, 
@@ -28,8 +25,10 @@ age:34
 const sqrFunc = (value:number) =>{
     return value * value
 }
-
 sqrFunc(4);
+
+
+
 
 
 type  Coordinates<X, Y> = [X, Y]
