@@ -11,7 +11,7 @@ type Student  ={id: number, name:string, hasWatch?: boolean,isMarried?: boolean}
  const student12 = {
     id: 3456, 
     name: "others", 
-    hasCar: true, 
+    hasCar: true,
     isMarried: true
  }
   
@@ -20,7 +20,6 @@ type Student  ={id: number, name:string, hasWatch?: boolean,isMarried?: boolean}
     name:'alak',
     hasWatch :true
  }
-
-
- const result1 = studentsToCou(student12, student3);
- console.log(result1); 
+ const result1 = studentsToCou(student12);
+ const result2 = studentsToCou(student3);
+ console.log(result1, result2); 
