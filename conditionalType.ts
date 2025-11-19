@@ -12,5 +12,6 @@ type RichEpb = {
     bike: string, 
     ship: string
 }
+
 type CheckVehicle <T> = T extends keyof RichEpb ? true : false
 type HasBike = CheckVehicle<'bike'> 
